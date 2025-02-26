@@ -35,7 +35,6 @@ AI-Chatbot/
 │── pyvenv.cfg                  # Virtual environment configuration
 │── requirements.txt             # Project dependencies
 
----
 ```
 
 ## 🔧 Installation Guide
@@ -83,12 +82,13 @@ After setting up, execute the chatbot:
     python pyBot.py
 ```
 
-🛠️ Features & Functionality
-Conversational AI: Uses OpenAI's GPT model for intelligent responses.
-Secure API Handling: API keys stored in .env for security.
-Dependency Management: Uses requirements.txt for easy installation.
-Virtual Environment: Ensures a clean development setup.
-❗ Important Notes
+###🛠️ Features & Functionality
+- Conversational AI: Uses OpenAI's GPT model for intelligent responses.
+- Secure API Handling: API keys stored in .env for security.
+- Dependency Management: Uses requirements.txt for easy installation.
+- Virtual Environment: Ensures a clean development setup.
+  
+#❗ Important Notes
 Ensure your API key is valid before running the chatbot.
 
 If you encounter dependency issues, try upgrading pip:
@@ -102,7 +102,7 @@ Deactivate the virtual environment when done:
     deactivate
 ```
 
-📌 Future Enhancements
+###📌 Future Enhancements
 Add a graphical interface for better user interaction.
 Implement support for additional AI models.
 Enhance response handling for more complex queries.
