@@ -23,13 +23,20 @@ The **AI Chatbot** is a Python-based chatbot designed to assist users with logic
 
 ## 📂 Project Structure
 
-AI-Chatbot/ │── myenv/ # Virtual environment (ignored in .gitignore) │── Include/ # System files (ignored) │── Lib/ # Dependencies (ignored) │── Scripts/ # Python environment scripts │── .env # Environment variables (ignored) │── .gitignore # Git ignore file │── pyBot.py # Main chatbot script │── pyvenv.cfg # Virtual environment configuration │── requirements.txt # Project dependencies
-
-yaml
-Copy
-Edit
+```plaintext
+AI-Chatbot/
+│── myenv/                     # Virtual environment (ignored in .gitignore)
+│── Include/                    # System files (ignored)
+│── Lib/                        # Dependencies (ignored)
+│── Scripts/                    # Python environment scripts
+│── .env                        # Environment variables (ignored)
+│── .gitignore                  # Git ignore file
+│── pyBot.py                    # Main chatbot script
+│── pyvenv.cfg                  # Virtual environment configuration
+│── requirements.txt             # Project dependencies
 
 ---
+```
 
 ## 🔧 Installation Guide
 
@@ -39,33 +46,43 @@ Follow these steps to **download, set up, and run** the AI Chatbot on your local
 To get a local copy of the project, run:
 
 ```bash
-git clone https://github.com/Kelvin-Mwenda/AI-Chatbot.git
-cd AI-Chatbot
+    git clone https://github.com/Kelvin-Mwenda/AI-Chatbot.git
+    cd AI-Chatbot
+```
+
 2️⃣ Set Up a Virtual Environment
 A virtual environment ensures dependency isolation. Create and activate it:
 
 On Windows:
-python -m venv myenv
-myenv\Scripts\activate
+```bash
+    python -m venv myenv
+    myenv\Scripts\activate
+```
 
 On macOS/Linux:
-python3 -m venv myenv
-source myenv/bin/activate
+```bash
+    python3 -m venv myenv
+    source myenv/bin/activate
+```
+
 3️⃣ Install Dependencies
 Use the requirements.txt file to install all required packages:
+```bash
+    pip install -r requirements.txt
+```
 
-
-pip install -r requirements.txt
 4️⃣ Add Your OpenAI API Key
 Create a .env file in the project directory and add your API key:
+```bash
+    OPENAI_API_KEY=your_api_key_here
+```
 
-
-OPENAI_API_KEY=your_api_key_here
 5️⃣ Run the Chatbot
 After setting up, execute the chatbot:
+```bash
+    python pyBot.py
+```
 
-
-python pyBot.py
 🛠️ Features & Functionality
 Conversational AI: Uses OpenAI's GPT model for intelligent responses.
 Secure API Handling: API keys stored in .env for security.
@@ -76,12 +93,15 @@ Ensure your API key is valid before running the chatbot.
 
 If you encounter dependency issues, try upgrading pip:
 
+```bash
+    pip install --upgrade pip
+```
 
-pip install --upgrade pip
 Deactivate the virtual environment when done:
+```bash
+    deactivate
+```
 
-
-deactivate
 📌 Future Enhancements
 Add a graphical interface for better user interaction.
 Implement support for additional AI models.
