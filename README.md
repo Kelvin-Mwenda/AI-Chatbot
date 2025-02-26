@@ -82,7 +82,7 @@ After setting up, execute the chatbot:
     python pyBot.py
 ```
 
-###🛠️ Features & Functionality
+### 🛠️ Features & Functionality
 - Conversational AI: Uses OpenAI's GPT model for intelligent responses.
 - Secure API Handling: API keys stored in .env for security.
 - Dependency Management: Uses requirements.txt for easy installation.
@@ -102,14 +102,16 @@ Deactivate the virtual environment when done:
     deactivate
 ```
 
-###📌 Future Enhancements
-Add a graphical interface for better user interaction.
-Implement support for additional AI models.
-Enhance response handling for more complex queries.
-📜 License
+### 📌 Future Enhancements
+- Add a graphical interface for better user interaction.
+- Implement support for additional AI models.
+- Enhance response handling for more complex queries.
+
+  
+# 📜 License
 This project is open-source and available under the MIT License.
 
-🤝 Contribution
+# 🤝 Contribution
 Contributions are welcome! Feel free to submit a pull request or open an issue for discussions.
 
 Happy coding! 🚀
