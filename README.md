@@ -108,10 +108,10 @@ Deactivate the virtual environment when done:
 - Enhance response handling for more complex queries.
 
   
-# 📜 License
+### 📜 License
 This project is open-source and available under the MIT License.
 
-# 🤝 Contribution
-Contributions are welcome! Feel free to submit a pull request or open an issue for discussions.
+### 🤝 Contribution
+Contributions are welcome! Feel free to submit a pull request or open an issue for discussion.
 
 Happy coding! 🚀
