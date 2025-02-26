@@ -1,10 +1,10 @@
 # 🤖 AI Chatbot Project
 Creating a simple AI chatbot
+---
 
 ## 📌 Project Overview
 The **AI Chatbot** is a Python-based chatbot designed to assist users with logical reasoning and mathematical queries. It leverages OpenAI's GPT model to provide well-structured responses. The project follows best practices, including the use of a virtual environment for dependency management.
 
----
 
 ## 🚀 Project Objectives & Achievements
 
@@ -88,7 +88,7 @@ After setting up, execute the chatbot:
 - Dependency Management: Uses requirements.txt for easy installation.
 - Virtual Environment: Ensures a clean development setup.
   
-#❗ Important Notes
+# ❗ Important Notes
 Ensure your API key is valid before running the chatbot.
 
 If you encounter dependency issues, try upgrading pip:
